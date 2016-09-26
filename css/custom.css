@@ -35,6 +35,10 @@ a {
   a:hover {
     color: #6AB446; }
 
+.clear {
+  clear: both;
+  width: 100%; }
+
 .wrapper {
   position: relative;
   min-height: 100%; }

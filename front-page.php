@@ -11,7 +11,7 @@ get_header(); ?>
 				<div class="<?php content_class_by_sidebar(); ?>">
 					<?php
 					global $post;
-					$postslist = get_posts( array( 'posts_per_page' => 10 ) );
+					$postslist = get_posts( array( 'posts_per_page' => 10, 'category' => "-29,-1") );
 					foreach ( $postslist as $post ) {
 						setup_postdata( $post );
 						?>
